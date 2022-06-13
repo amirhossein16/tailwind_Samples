@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header, section {
+    @apply text-gray-600
+}
+
+header {
+    @apply border-b border-gray-300 border-solid
+}
+
+header > nav > div {
+    @apply container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center
+}
+
+header > nav > div > a {
+    @apply flex font-medium items-center text-gray-900 mb-4 md:mb-0
+}
+
+header > nav > div > a > svg {
+    @apply w-10 h-10 text-white p-2 bg-indigo-500 rounded-full
+}
+
+header > nav > div > a > span {
+    @apply ml-3 text-xl
+}
+
+.Navigation {
+    @apply md:ml-auto flex flex-wrap items-center text-base
+}
+
+.Navigation > a {
+    @apply mr-5 hover:text-gray-900
+}
+
+.CustomButton {
+    @apply inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded md:text-base text-gray-800 md:mt-4 md:mt-0
+}
+
+.CustomButton > svg {
+    @apply w-4 h-4 ml-1
+}
+
+.SectionDiv1 {
+    @apply container mx-auto flex px-5 py-24 md:flex-row flex-col items-center
+}
+
+.SectionDiv2 {
+    @apply container px-5 py-14 mx-auto
+}
+
+.SectionDiv11 {
+    @apply lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center
+}
+
+.SectionDiv12 {
+    @apply lg:max-w-lg lg:w-full md:w-1/2 w-5/6
+}
+
+.SectionDiv11 > h1 {
+    @apply sm:text-4xl text-3xl mb-4 font-medium text-gray-900
+}
+
+.SectionDiv11 > h1 > br {
+    @apply hidden lg:inline-block
+}
+
+.SectionDiv11 > p {
+    @apply mb-8 leading-relaxed
+}
+
+.CustomButton1 {
+    @apply inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg
+}
+
+.CustomButton2 {
+    @apply ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg
+}
+
+.SectionDiv12 > img {
+    @apply object-cover object-center rounded
+}
+
+.SectionDiv21 {
+    @apply flex flex-col text-center w-full mb-20
+}
+
+.SectionDiv21 > h2 {
+    @apply text-xs text-indigo-500 tracking-widest font-medium  mb-1
+}
+
+.SectionDiv21 > h1 {
+    @apply sm:text-3xl text-2xl font-medium  text-gray-900
+}
+
+.SectionDiv22 {
+    @apply flex flex-wrap -m-8
+}
+
+.SectionDiv22 > div {
+    @apply p-4 md:w-1/3
+}
+
+.SectionDiv22 > div > div {
+    @apply flex rounded-lg h-full bg-gray-100 p-8 flex-col
+}
+
+.CardTitle {
+    @apply flex items-center mb-4
+}
+
+.CardTitle > div {
+    @apply w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0
+}
+
+.CardTitle > h2 {
+    @apply text-gray-900 text-lg font-medium
+}
+
+.flex-grow > p {
+    @apply leading-relaxed text-base
+}
+
+.flex-grow > a {
+    @apply mt-3 text-indigo-500 inline-flex items-center
+}
+
+.flex-grow > a > svg {
+    @apply w-4 h-4 ml-2
+}
+
+.MapDiv {
+    @apply absolute inset-0 bg-gray-300
+}
+
+.BoxDiv {
+    @apply container px-5 py-24 mx-auto
+}
+
+.BoxDiv > div {
+    @apply lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-lg
+}
+
+.BoxDiv > div > h2 {
+    @apply text-gray-900 text-lg mb-1 font-medium
+}
+
+.BoxDiv > div > p {
+    @apply leading-relaxed mb-5 text-gray-600
+}
+
+.BoxDiv > div > button {
+    @apply text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-md text-lg
+}
+
+.BoxDiv > div > div {
+    @apply relative mb-4
+}
+
+.BoxDiv > div > div > label {
+    @apply leading-7 text-sm text-gray-600
+}
+
+.BoxDiv > div > div > input {
+    @apply w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
+}
+
+.BoxDiv > div > div > textarea {
+    @apply w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out
+}
+
+.CustomP {
+    @apply text-xs text-gray-500 mt-3
+}
+
+.GitHub {
+    @apply fixed w-[60px] h-[60px] p-3 right-6 bottom-6 bg-gray-100 rounded-full
+}

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+    @apply text-gray-600
+}
+
+section > div {
+    @apply container py-10 mx-auto
+}
+
+section > div > div {
+    @apply gap-3 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+}
+
+section > div > div > div {
+    @apply shadow-2xl w-full rounded-lg overflow-hidden
+}
+
+section > div > div > div > div {
+    @apply h-full flex flex-col items-center text-center
+}
+
+.Pic {
+    @apply flex-shrink-0 rounded-t-lg w-full h-56 object-cover object-center mb-4
+}
+
+.Details {
+    @apply w-full px-3 py-1
+}
+
+.Custom1 {
+    @apply flex justify-between items-center mb-12
+}
+
+.Custom1 > h2 {
+    @apply font-medium text-lg text-gray-900 flex items-start
+}
+
+.Custom1 > h3 {
+    @apply text-gray-500 flex
+}
+
+.Custom2 {
+    @apply flex items-center mb-1.5
+}
+
+.Custom2 > img {
+    @apply mr-1 w-[40px] h-[40px] rounded-full border border-2 border-white border-solid
+}
+
+.CustomName {
+    @apply pb-1
+}
+
+.CustomName > div {
+    @apply text-black mb-0
+}
+
+.LikeIcon {
+    @apply ml-auto pr-0.5
+}
